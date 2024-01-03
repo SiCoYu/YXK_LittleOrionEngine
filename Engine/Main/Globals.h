@@ -55,7 +55,7 @@ enum class Fonts
 #if GAME
 #define TITLE "Twinlight Souls"
 #else
-#define TITLE "Little Orion Engine"
+#define TITLE "Little Orion Engine VS 2019"
 #endif
 
 #endif //_GLOBALS_H_
