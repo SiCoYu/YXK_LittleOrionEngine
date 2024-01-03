@@ -333,7 +333,7 @@ NodeEditor.json
 
 # Binaries Folders
 /[Bb]inaries*
-Game/Library/**
+# Game/Library/**
 !Libraries/**
 Libraries/lib/x86/LittleOrionEngine*
 
