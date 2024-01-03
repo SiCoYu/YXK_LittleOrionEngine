@@ -2,7 +2,7 @@
 #define _MODULEAUDIO_H_
 
 #define ENGINE_EXPORTS
-
+#include <iostream>
 #include "Module/Module.h"
 
 #include <AK/SoundEngine/Common/AkMemoryMgr.h>  //Memory Manager

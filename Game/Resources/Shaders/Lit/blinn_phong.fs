@@ -6,7 +6,6 @@
 
 float gamma = 2.2;
 const float ambient_light_strength = 0.1;
-const float amount_of_skybox_reflection = 0;
 
 //////////////////////////////////
 ////////     STRUCTS    //////////
@@ -33,7 +32,6 @@ struct Material
 	float roughness;
 	float metalness;
 	float transparency;
-	float reflection_strength;
 	vec2 tiling;
 
 	sampler2D liquid_map;
@@ -111,8 +109,6 @@ uniform sampler2D far_depth_map;
 uniform float ambient_light_intensity;
 uniform vec4 ambient_light_color;
 
-// SKYBOX
-uniform samplerCube skybox_texture;
 //////////////////////////////////
 ///////     FUNCTIONS    /////////
 //////////////////////////////////
@@ -149,7 +145,6 @@ bool InsideUVRange(vec2 uv);
 
 //General variables
 in vec3 position;
-in vec4 eye_coordinate_pos;
 in vec3 normal;
 in vec2 texCoord;
 in vec2 texCoordLightmap;
@@ -168,10 +163,6 @@ in vec4 position_full_depth_space;
 
 layout (location = 0) out vec4 FragColor;
 layout (location = 1) out vec4 BrightColor;
-layout (location = 2) out vec4 normalBuffer;
-layout (location = 3) out vec4 positionBuffer;
-layout (location = 4) out vec4 ssrValuesBuffer;
-
 
 //////////////////////////////////
 ///////     DEFINTIONS    ////////
@@ -216,15 +207,11 @@ void main()
 
  	float lit_fragment = ShadowCalculation();
 
-#if ENABLE_LIQUID_PROPERTIES
-    vec3 I = normalize(position - view_pos);
-    vec3 R = reflect(I, fragment_normal);
-	//result +=texture(skybox_texture, R).rgb* amount_of_skybox_reflection;
-#endif
+	result += diffuse_color.rgb * ambient * occlusion_color.rgb; //Ambient light
+
 #if ENABLE_LIGHT_MAP
 	result += diffuse_color.rgb * GetLightMapColor(material, texCoordLightmap).rgb * lit_fragment;
 #else
-	result += diffuse_color.rgb * ambient * occlusion_color.rgb; //Ambient light
 
 	for (int i = 0; i < directional_light.num_directional_lights; ++i)
 	{
@@ -251,9 +238,7 @@ void main()
 #endif
 
 	FragColor.a = material.transparency;
-	normalBuffer = vec4(fragment_normal,1.0);
-	positionBuffer = eye_coordinate_pos;
-	ssrValuesBuffer = vec4(material.reflection_strength,0,0,1.0);
+
 	float brightness = dot(result, vec3(0.2, 0.6, 0.0));
 	if (brightness > 1.0)
 	{

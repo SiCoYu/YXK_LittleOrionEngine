@@ -577,6 +577,258 @@
     <ClCompile Include="Engine\EditorUI\Panel\InspectorSubpanel\PanelTrail.cpp">
       <Filter>Engine\EditorUI\Panel\InspectorSubpanel</Filter>
     </ClCompile>
+    <ClCompile Include="Engine\Script\AllyInteractionsScript.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\AllyTrigger.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\AudioManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BattleEvent.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\Biter.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStateAttack.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStateCharge.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStateDie.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStateExplosion.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStateHit.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStateIdle.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BiterStatePursue.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossAttackAvalanche.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossAttackCrystalsCone.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossAttackCrystalsGuided.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossAttackEarthquake.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossAttackSlam.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossStagePhaseOne.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossStagePhaseThree.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\BossStagePhaseTwo.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CameraController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CameraLine.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CameraShake.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CharacterSelectionMenuController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CheckPointManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CinematicCamera.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\ComboCounter.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\ComboCounterIndicator.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\CreditsMenuController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\DamageIndicator.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\DamageIndicatorSpawner.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\DebugModeScript.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\DialogueManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\Dissolver.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\EnemyController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\EnemyManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\EnvironmentSFX.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\EnvironmentVFX.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\EventManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\ExampleScript.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\GodCamera.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\HelpMenuController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\HitBlinker.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\InputManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LevelSelectionMenuController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LightBall.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LightOrb.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LightOrbsManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LightShield.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LightTeleportManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\LoadingScreen.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MainMenuController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\Mushdoom.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomBall.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateAttack.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateDie.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateGround.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateHit.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateIdle.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStatePursue.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateScream.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\MushdoomStateThrow.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\NecroBurrow.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\NecroExplosion.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\NecroMuzzle.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\Necroplant.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\NecroProjectile.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\PauseMenuController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\PlayerAttack.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\PlayerController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\PlayerMovement.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\PopupText.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\ProgressBar.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\SceneCamerasController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\Script.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\SpecialProgressBar.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\TeleportPoint.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\TerrainDamage.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\TutorialHelper.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\UILives.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\UIMainMenuInputController.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\UIManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Script\WorldManager.cpp">
+      <Filter>Engine\Scripts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Component\Component.h">
@@ -1146,6 +1398,276 @@
     <ClInclude Include="Engine\EditorUI\Panel\InspectorSubpanel\PanelTrail.h">
       <Filter>Engine\EditorUI\Panel\InspectorSubpanel</Filter>
     </ClInclude>
+    <ClInclude Include="Engine\Script\WorldManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\AllyInteractionsScript.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\AllyTrigger.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Attacks.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\AudioManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BattleEvent.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Biter.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStateAttack.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStateCharge.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStateDie.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStateExplosion.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStateHit.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStateIdle.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BiterStatePursue.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossAttack.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossAttackAvalanche.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossAttackCrystalsCone.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossAttackCrystalsGuided.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossAttackEarthquake.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossAttackSlam.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossStage.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossStagePhaseOne.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossStagePhaseThree.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\BossStagePhaseTwo.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CameraController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CameraLine.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CameraShake.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CharacterSelectionMenuController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CheckPointManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CinematicCamera.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Cinematics.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\ComboCounter.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\ComboCounterIndicator.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\CreditsMenuController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\DamageIndicator.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\DamageIndicatorSpawner.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\DebugModeScript.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\DialogueManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Dialogues.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Dissolver.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\EnemyController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\EnemyManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\EnemyState.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\EnvironmentSFX.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\EnvironmentVFX.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\EventManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\ExampleScript.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\GodCamera.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\HelpMenuController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\HitBlinker.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\InputManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LevelSelectionMenuController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LightBall.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LightOrb.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LightOrbsManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LightShield.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LightTeleportManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\LoadingScreen.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MainMenuController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Mushdoom.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomBall.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateAttack.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateDie.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateGround.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateHit.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateIdle.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStatePursue.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateScream.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\MushdoomStateThrow.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\NecroBurrow.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\NecroExplosion.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\NecroMuzzle.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Necroplant.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\NecroProjectile.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\PauseMenuController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\PlayerAttack.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\PlayerController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\PlayerMovement.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\PopupText.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\ProgressBar.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\SceneCamerasController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\Script.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\SpecialProgressBar.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\TeleportPoint.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\TerrainDamage.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\TutorialHelper.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\UILives.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\UIMainMenuInputController.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Script\UIManager.h">
+      <Filter>Engine\Scripts</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Libraries">
@@ -1255,6 +1777,9 @@
     </Filter>
     <Filter Include="Engine\Rendering\FrameBuffer">
       <UniqueIdentifier>{690eddaa-f84a-46a4-bbbf-3441da24d4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scripts">
+      <UniqueIdentifier>{17bc8457-5126-4716-9e6f-c5f754ef290f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

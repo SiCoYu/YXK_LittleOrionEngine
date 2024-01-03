@@ -1,6 +1,6 @@
 #ifndef _PATH_H_
 #define _PATH_H_
-
+#include <iostream>
 #include <vector>
 #include <memory>
 #include <physfs/physfs.h>

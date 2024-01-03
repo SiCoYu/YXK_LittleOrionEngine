@@ -18,26 +18,26 @@
     <ProjectGuid>{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}</ProjectGuid>
     <RootNamespace>SDLGame</RootNamespace>
     <ProjectName>LittleOrionEngine</ProjectName>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -265,6 +265,96 @@
     <ClInclude Include="Engine\ResourceManagement\Resources\Skeleton.h" />
     <ClInclude Include="Engine\ResourceManagement\Resources\StateMachine.h" />
     <ClInclude Include="Engine\ResourceManagement\Resources\Texture.h" />
+    <ClInclude Include="Engine\Script\AllyInteractionsScript.h" />
+    <ClInclude Include="Engine\Script\AllyTrigger.h" />
+    <ClInclude Include="Engine\Script\Attacks.h" />
+    <ClInclude Include="Engine\Script\AudioManager.h" />
+    <ClInclude Include="Engine\Script\BattleEvent.h" />
+    <ClInclude Include="Engine\Script\Biter.h" />
+    <ClInclude Include="Engine\Script\BiterStateAttack.h" />
+    <ClInclude Include="Engine\Script\BiterStateCharge.h" />
+    <ClInclude Include="Engine\Script\BiterStateDie.h" />
+    <ClInclude Include="Engine\Script\BiterStateExplosion.h" />
+    <ClInclude Include="Engine\Script\BiterStateHit.h" />
+    <ClInclude Include="Engine\Script\BiterStateIdle.h" />
+    <ClInclude Include="Engine\Script\BiterStatePursue.h" />
+    <ClInclude Include="Engine\Script\BossAttack.h" />
+    <ClInclude Include="Engine\Script\BossAttackAvalanche.h" />
+    <ClInclude Include="Engine\Script\BossAttackCrystalsCone.h" />
+    <ClInclude Include="Engine\Script\BossAttackCrystalsGuided.h" />
+    <ClInclude Include="Engine\Script\BossAttackEarthquake.h" />
+    <ClInclude Include="Engine\Script\BossAttackSlam.h" />
+    <ClInclude Include="Engine\Script\BossController.h" />
+    <ClInclude Include="Engine\Script\BossStage.h" />
+    <ClInclude Include="Engine\Script\BossStagePhaseOne.h" />
+    <ClInclude Include="Engine\Script\BossStagePhaseThree.h" />
+    <ClInclude Include="Engine\Script\BossStagePhaseTwo.h" />
+    <ClInclude Include="Engine\Script\CameraController.h" />
+    <ClInclude Include="Engine\Script\CameraLine.h" />
+    <ClInclude Include="Engine\Script\CameraShake.h" />
+    <ClInclude Include="Engine\Script\CharacterSelectionMenuController.h" />
+    <ClInclude Include="Engine\Script\CheckPointManager.h" />
+    <ClInclude Include="Engine\Script\CinematicCamera.h" />
+    <ClInclude Include="Engine\Script\Cinematics.h" />
+    <ClInclude Include="Engine\Script\ComboCounter.h" />
+    <ClInclude Include="Engine\Script\ComboCounterIndicator.h" />
+    <ClInclude Include="Engine\Script\CreditsMenuController.h" />
+    <ClInclude Include="Engine\Script\DamageIndicator.h" />
+    <ClInclude Include="Engine\Script\DamageIndicatorSpawner.h" />
+    <ClInclude Include="Engine\Script\DebugModeScript.h" />
+    <ClInclude Include="Engine\Script\DialogueManager.h" />
+    <ClInclude Include="Engine\Script\Dialogues.h" />
+    <ClInclude Include="Engine\Script\Dissolver.h" />
+    <ClInclude Include="Engine\Script\EnemyController.h" />
+    <ClInclude Include="Engine\Script\EnemyManager.h" />
+    <ClInclude Include="Engine\Script\EnemyState.h" />
+    <ClInclude Include="Engine\Script\EnvironmentSFX.h" />
+    <ClInclude Include="Engine\Script\EnvironmentVFX.h" />
+    <ClInclude Include="Engine\Script\EventManager.h" />
+    <ClInclude Include="Engine\Script\ExampleScript.h" />
+    <ClInclude Include="Engine\Script\GodCamera.h" />
+    <ClInclude Include="Engine\Script\HelpMenuController.h" />
+    <ClInclude Include="Engine\Script\HitBlinker.h" />
+    <ClInclude Include="Engine\Script\InputManager.h" />
+    <ClInclude Include="Engine\Script\LevelSelectionMenuController.h" />
+    <ClInclude Include="Engine\Script\LightBall.h" />
+    <ClInclude Include="Engine\Script\LightOrb.h" />
+    <ClInclude Include="Engine\Script\LightOrbsManager.h" />
+    <ClInclude Include="Engine\Script\LightShield.h" />
+    <ClInclude Include="Engine\Script\LightTeleportManager.h" />
+    <ClInclude Include="Engine\Script\LoadingScreen.h" />
+    <ClInclude Include="Engine\Script\MainMenuController.h" />
+    <ClInclude Include="Engine\Script\Mushdoom.h" />
+    <ClInclude Include="Engine\Script\MushdoomBall.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateAttack.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateDie.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateGround.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateHit.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateIdle.h" />
+    <ClInclude Include="Engine\Script\MushdoomStatePursue.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateScream.h" />
+    <ClInclude Include="Engine\Script\MushdoomStateThrow.h" />
+    <ClInclude Include="Engine\Script\NecroBurrow.h" />
+    <ClInclude Include="Engine\Script\NecroExplosion.h" />
+    <ClInclude Include="Engine\Script\NecroMuzzle.h" />
+    <ClInclude Include="Engine\Script\Necroplant.h" />
+    <ClInclude Include="Engine\Script\NecroProjectile.h" />
+    <ClInclude Include="Engine\Script\PauseMenuController.h" />
+    <ClInclude Include="Engine\Script\PlayerAttack.h" />
+    <ClInclude Include="Engine\Script\PlayerController.h" />
+    <ClInclude Include="Engine\Script\PlayerMovement.h" />
+    <ClInclude Include="Engine\Script\PopupText.h" />
+    <ClInclude Include="Engine\Script\ProgressBar.h" />
+    <ClInclude Include="Engine\Script\SceneCamerasController.h" />
+    <ClInclude Include="Engine\Script\Script.h" />
+    <ClInclude Include="Engine\Script\SpecialProgressBar.h" />
+    <ClInclude Include="Engine\Script\TeleportPoint.h" />
+    <ClInclude Include="Engine\Script\TerrainDamage.h" />
+    <ClInclude Include="Engine\Script\TutorialHelper.h" />
+    <ClInclude Include="Engine\Script\UILives.h" />
+    <ClInclude Include="Engine\Script\UIMainMenuInputController.h" />
+    <ClInclude Include="Engine\Script\UIManager.h" />
+    <ClInclude Include="Engine\Script\WorldManager.h" />
     <ClInclude Include="Engine\SpacePartition\OLAABBTree.h" />
     <ClInclude Include="Engine\SpacePartition\OLOctTree.h" />
     <ClInclude Include="Engine\SpacePartition\OLOctTreeNode.h" />
@@ -441,6 +531,90 @@
     <ClCompile Include="Engine\ResourceManagement\Resources\SoundBank.cpp" />
     <ClCompile Include="Engine\ResourceManagement\Resources\StateMachine.cpp" />
     <ClCompile Include="Engine\ResourceManagement\Resources\Texture.cpp" />
+    <ClCompile Include="Engine\Script\AllyInteractionsScript.cpp" />
+    <ClCompile Include="Engine\Script\AllyTrigger.cpp" />
+    <ClCompile Include="Engine\Script\AudioManager.cpp" />
+    <ClCompile Include="Engine\Script\BattleEvent.cpp" />
+    <ClCompile Include="Engine\Script\Biter.cpp" />
+    <ClCompile Include="Engine\Script\BiterStateAttack.cpp" />
+    <ClCompile Include="Engine\Script\BiterStateCharge.cpp" />
+    <ClCompile Include="Engine\Script\BiterStateDie.cpp" />
+    <ClCompile Include="Engine\Script\BiterStateExplosion.cpp" />
+    <ClCompile Include="Engine\Script\BiterStateHit.cpp" />
+    <ClCompile Include="Engine\Script\BiterStateIdle.cpp" />
+    <ClCompile Include="Engine\Script\BiterStatePursue.cpp" />
+    <ClCompile Include="Engine\Script\BossAttackAvalanche.cpp" />
+    <ClCompile Include="Engine\Script\BossAttackCrystalsCone.cpp" />
+    <ClCompile Include="Engine\Script\BossAttackCrystalsGuided.cpp" />
+    <ClCompile Include="Engine\Script\BossAttackEarthquake.cpp" />
+    <ClCompile Include="Engine\Script\BossAttackSlam.cpp" />
+    <ClCompile Include="Engine\Script\BossController.cpp" />
+    <ClCompile Include="Engine\Script\BossStagePhaseOne.cpp" />
+    <ClCompile Include="Engine\Script\BossStagePhaseThree.cpp" />
+    <ClCompile Include="Engine\Script\BossStagePhaseTwo.cpp" />
+    <ClCompile Include="Engine\Script\CameraController.cpp" />
+    <ClCompile Include="Engine\Script\CameraLine.cpp" />
+    <ClCompile Include="Engine\Script\CameraShake.cpp" />
+    <ClCompile Include="Engine\Script\CharacterSelectionMenuController.cpp" />
+    <ClCompile Include="Engine\Script\CheckPointManager.cpp" />
+    <ClCompile Include="Engine\Script\CinematicCamera.cpp" />
+    <ClCompile Include="Engine\Script\ComboCounter.cpp" />
+    <ClCompile Include="Engine\Script\ComboCounterIndicator.cpp" />
+    <ClCompile Include="Engine\Script\CreditsMenuController.cpp" />
+    <ClCompile Include="Engine\Script\DamageIndicator.cpp" />
+    <ClCompile Include="Engine\Script\DamageIndicatorSpawner.cpp" />
+    <ClCompile Include="Engine\Script\DebugModeScript.cpp" />
+    <ClCompile Include="Engine\Script\DialogueManager.cpp" />
+    <ClCompile Include="Engine\Script\Dissolver.cpp" />
+    <ClCompile Include="Engine\Script\EnemyController.cpp" />
+    <ClCompile Include="Engine\Script\EnemyManager.cpp" />
+    <ClCompile Include="Engine\Script\EnvironmentSFX.cpp" />
+    <ClCompile Include="Engine\Script\EnvironmentVFX.cpp" />
+    <ClCompile Include="Engine\Script\EventManager.cpp" />
+    <ClCompile Include="Engine\Script\ExampleScript.cpp" />
+    <ClCompile Include="Engine\Script\GodCamera.cpp" />
+    <ClCompile Include="Engine\Script\HelpMenuController.cpp" />
+    <ClCompile Include="Engine\Script\HitBlinker.cpp" />
+    <ClCompile Include="Engine\Script\InputManager.cpp" />
+    <ClCompile Include="Engine\Script\LevelSelectionMenuController.cpp" />
+    <ClCompile Include="Engine\Script\LightBall.cpp" />
+    <ClCompile Include="Engine\Script\LightOrb.cpp" />
+    <ClCompile Include="Engine\Script\LightOrbsManager.cpp" />
+    <ClCompile Include="Engine\Script\LightShield.cpp" />
+    <ClCompile Include="Engine\Script\LightTeleportManager.cpp" />
+    <ClCompile Include="Engine\Script\LoadingScreen.cpp" />
+    <ClCompile Include="Engine\Script\MainMenuController.cpp" />
+    <ClCompile Include="Engine\Script\Mushdoom.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomBall.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateAttack.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateDie.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateGround.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateHit.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateIdle.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStatePursue.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateScream.cpp" />
+    <ClCompile Include="Engine\Script\MushdoomStateThrow.cpp" />
+    <ClCompile Include="Engine\Script\NecroBurrow.cpp" />
+    <ClCompile Include="Engine\Script\NecroExplosion.cpp" />
+    <ClCompile Include="Engine\Script\NecroMuzzle.cpp" />
+    <ClCompile Include="Engine\Script\Necroplant.cpp" />
+    <ClCompile Include="Engine\Script\NecroProjectile.cpp" />
+    <ClCompile Include="Engine\Script\PauseMenuController.cpp" />
+    <ClCompile Include="Engine\Script\PlayerAttack.cpp" />
+    <ClCompile Include="Engine\Script\PlayerController.cpp" />
+    <ClCompile Include="Engine\Script\PlayerMovement.cpp" />
+    <ClCompile Include="Engine\Script\PopupText.cpp" />
+    <ClCompile Include="Engine\Script\ProgressBar.cpp" />
+    <ClCompile Include="Engine\Script\SceneCamerasController.cpp" />
+    <ClCompile Include="Engine\Script\Script.cpp" />
+    <ClCompile Include="Engine\Script\SpecialProgressBar.cpp" />
+    <ClCompile Include="Engine\Script\TeleportPoint.cpp" />
+    <ClCompile Include="Engine\Script\TerrainDamage.cpp" />
+    <ClCompile Include="Engine\Script\TutorialHelper.cpp" />
+    <ClCompile Include="Engine\Script\UILives.cpp" />
+    <ClCompile Include="Engine\Script\UIMainMenuInputController.cpp" />
+    <ClCompile Include="Engine\Script\UIManager.cpp" />
+    <ClCompile Include="Engine\Script\WorldManager.cpp" />
     <ClCompile Include="Engine\SpacePartition\OLAABBTree.cpp" />
     <ClCompile Include="Engine\SpacePartition\OLOctTree.cpp" />
     <ClCompile Include="Engine\SpacePartition\OLOctTreeNode.cpp" />
