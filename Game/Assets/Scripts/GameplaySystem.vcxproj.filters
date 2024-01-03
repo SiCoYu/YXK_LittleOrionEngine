@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1a5d30e8-82ca-453e-a6ed-bab9d7cbe176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script">
+      <UniqueIdentifier>{aa9f2b9e-7c62-4668-b592-e8c489807a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{72440d45-31b0-4e21-b2ec-c06477de2250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Player">
+      <UniqueIdentifier>{b463d16c-5785-4704-beba-3d59b130ec03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy">
+      <UniqueIdentifier>{4f8efb08-f09a-4acb-89c9-190a535a082e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\UI">
+      <UniqueIdentifier>{730085b1-319b-41f8-ae9c-13fed5bc7d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Debug">
+      <UniqueIdentifier>{2c1664d1-8e28-437f-a30b-e79170cfe592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Managers">
+      <UniqueIdentifier>{90526d4b-d67e-48e5-b7cf-35d3a4f960cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Camera">
+      <UniqueIdentifier>{98162712-f64d-437a-84fa-e5d05a98256f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Helper">
+      <UniqueIdentifier>{8c057027-9b1f-49fc-b672-9dc3d6b24389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Main">
+      <UniqueIdentifier>{b93069da-0c15-4a73-b481-482b24e8ebe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\LightOrbs">
+      <UniqueIdentifier>{3ee894c1-1e13-4841-b210-7cc4536cf966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\UI\HUD">
+      <UniqueIdentifier>{c1d4ed18-e508-4e58-87a7-9d1cb69d9751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\UI\MainMenu">
+      <UniqueIdentifier>{d2987d1c-d58b-4b1a-8d0c-116fc78eecff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy\States">
+      <UniqueIdentifier>{b4a53267-51d3-402f-9044-a673cae67b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy\States\Mushdoom States">
+      <UniqueIdentifier>{ebdb1ed7-f4d7-4356-a775-004e150837bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy\States\Biter States">
+      <UniqueIdentifier>{f8922c95-419f-444f-8385-0622b82eb8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Mechanics">
+      <UniqueIdentifier>{e5ba5a68-cc92-4c91-8ce9-d7e4a365d2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Mechanics\LightTeleport">
+      <UniqueIdentifier>{fb936a5f-6704-49cb-8d0f-a738340d80a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Mechanics\Light Ball">
+      <UniqueIdentifier>{098d29ce-f7fa-4fe5-a9cd-a418723b002e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\UI\Dialogue System">
+      <UniqueIdentifier>{d30254b3-1847-4b0f-8db2-78aa7ab7cfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Mechanics\Events">
+      <UniqueIdentifier>{8e541c89-093e-41bf-9dec-882a47e2025e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy\Necroplant">
+      <UniqueIdentifier>{8ff5572c-cc61-47c2-a6ba-e3d2d99071c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Mechanics\LightShield">
+      <UniqueIdentifier>{be630b8c-fae3-49e3-acae-455e3347353f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Mechanics\ComboCounter">
+      <UniqueIdentifier>{1f342de4-ce02-4d9d-b3bc-52836ce56b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Ally">
+      <UniqueIdentifier>{28d6a6b9-887b-4716-ae3d-8bc80d1a88a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Environment">
+      <UniqueIdentifier>{8b593ff8-28ac-4650-832e-b59d3411b399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Boss">
+      <UniqueIdentifier>{e72fe092-8019-49fd-af50-992e75cee6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Boss\BossStages">
+      <UniqueIdentifier>{68e7b298-97f5-404d-a894-5aa1c86d44e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Boss\BossAttacks">
+      <UniqueIdentifier>{20f1f046-1e59-443b-adc0-b6ae164bd729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy\Biter">
+      <UniqueIdentifier>{e49d6fec-5f16-41e9-85db-b83b9b608cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Script\Enemy\Mushdoom">
+      <UniqueIdentifier>{19c36ccc-9826-44b7-a182-645accfbd373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Script\PlayerController.h">
+      <Filter>src\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\PlayerMovement.h">
+      <Filter>src\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\PlayerAttack.h">
+      <Filter>src\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\EnemyController.h">
+      <Filter>src\Script\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\DebugModeScript.h">
+      <Filter>src\Script\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\WorldManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\DebugModeScript.h">
+      <Filter>src\Script\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\WorldManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CameraController.h">
+      <Filter>src\Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\EnemyManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\EventManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\GodCamera.h">
+      <Filter>src\Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\SceneCamerasController.h">
+      <Filter>src\Script\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\ExampleScript.h">
+      <Filter>src\Script\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Script.h">
+      <Filter>src\Script\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LightBall.h">
+      <Filter>src\Script\Mechanics\Light Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LightOrb.h">
+      <Filter>src\Script\LightOrbs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LightOrbsManager.h">
+      <Filter>src\Script\LightOrbs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\DamageIndicator.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\DamageIndicatorSpawner.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\ProgressBar.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\UIManager.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CharacterSelectionMenuController.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CreditsMenuController.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\HelpMenuController.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LevelSelectionMenuController.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MainMenuController.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\PauseMenuController.h">
+      <Filter>src\Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\EnemyState.h">
+      <Filter>src\Script\Enemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateAttack.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateDie.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateHit.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateIdle.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStatePursue.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateScream.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStateIdle.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateThrow.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LightTeleportManager.h">
+      <Filter>src\Script\Mechanics\LightTeleport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\InputManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Attacks.h">
+      <Filter>src\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStateAttack.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStateCharge.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStateDie.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStateExplosion.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStateHit.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BiterStatePursue.h">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\UIMainMenuInputController.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\SpecialProgressBar.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CameraLine.h">
+      <Filter>src\Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomStateGround.h">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CameraShake.h">
+      <Filter>src\Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\DialogueManager.h">
+      <Filter>src\Script\UI\Dialogue System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Dialogues.h">
+      <Filter>src\Script\UI\Dialogue System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\PopupText.h">
+      <Filter>src\Script\UI\Dialogue System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BattleEvent.h">
+      <Filter>src\Script\Mechanics\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\TeleportPoint.h">
+      <Filter>src\Script\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LoadingScreen.h">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\TerrainDamage.h">
+      <Filter>src\Script\Mechanics\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Dissolver.h">
+      <Filter>src\Script\Mechanics\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Necroplant.h">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\NecroProjectile.h">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\LightShield.h">
+      <Filter>src\Script\Mechanics\LightShield</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\ComboCounterIndicator.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\ComboCounter.h">
+      <Filter>src\Script\Mechanics\ComboCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CinematicCamera.h">
+      <Filter>src\Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\AllyInteractionsScript.h">
+      <Filter>src\Script\Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\NecroExplosion.h">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\NecroMuzzle.h">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\EnvironmentVFX.h">
+      <Filter>src\Script\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\NecroBurrow.h">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\AllyTrigger.h">
+      <Filter>src\Script\Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\AudioManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\EnvironmentSFX.h">
+      <Filter>src\Script\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossController.h">
+      <Filter>src\Script\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossStagePhaseTwo.h">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossStagePhaseOne.h">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossStagePhaseThree.h">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossStage.h">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossAttackSlam.h">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossAttack.h">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossAttackAvalanche.h">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossAttackCrystalsCone.h">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossAttackCrystalsGuided.h">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\BossAttackEarthquake.h">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\UILives.h">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\CheckPointManager.h">
+      <Filter>src\Script\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\TutorialHelper.h">
+      <Filter>src\Script\Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Biter.h">
+      <Filter>src\Script\Enemy\Biter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\Mushdoom.h">
+      <Filter>src\Script\Enemy\Mushdoom</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\MushdoomBall.h">
+      <Filter>src\Script\Enemy\Mushdoom</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script\HitBlinker.h">
+      <Filter>src\Script\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Script\PlayerController.cpp">
+      <Filter>src\Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\PlayerMovement.cpp">
+      <Filter>src\Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\PlayerAttack.cpp">
+      <Filter>src\Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\EnemyController.cpp">
+      <Filter>src\Script\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\DebugModeScript.cpp">
+      <Filter>src\Script\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\WorldManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\DebugModeScript.cpp">
+      <Filter>src\Script\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\WorldManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CameraController.cpp">
+      <Filter>src\Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\EnemyManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\EventManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\GodCamera.cpp">
+      <Filter>src\Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\SceneCamerasController.cpp">
+      <Filter>src\Script\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\ExampleScript.cpp">
+      <Filter>src\Script\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\Script.cpp">
+      <Filter>src\Script\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LightBall.cpp">
+      <Filter>src\Script\Mechanics\Light Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LightOrb.cpp">
+      <Filter>src\Script\LightOrbs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LightOrbsManager.cpp">
+      <Filter>src\Script\LightOrbs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\DamageIndicator.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\DamageIndicatorSpawner.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\ProgressBar.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\UIManager.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CharacterSelectionMenuController.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CreditsMenuController.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\HelpMenuController.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LevelSelectionMenuController.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MainMenuController.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\PauseMenuController.cpp">
+      <Filter>src\Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateAttack.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateDie.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateHit.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateIdle.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStatePursue.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateScream.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStateIdle.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateThrow.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LightTeleportManager.cpp">
+      <Filter>src\Script\Mechanics\LightTeleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\InputManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStateAttack.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStateCharge.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStateDie.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStateExplosion.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStateHit.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BiterStatePursue.cpp">
+      <Filter>src\Script\Enemy\States\Biter States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\UIMainMenuInputController.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\SpecialProgressBar.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CameraLine.cpp">
+      <Filter>src\Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomStateGround.cpp">
+      <Filter>src\Script\Enemy\States\Mushdoom States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CameraShake.cpp">
+      <Filter>src\Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\DialogueManager.cpp">
+      <Filter>src\Script\UI\Dialogue System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\PopupText.cpp">
+      <Filter>src\Script\UI\Dialogue System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BattleEvent.cpp">
+      <Filter>src\Script\Mechanics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\TeleportPoint.cpp">
+      <Filter>src\Script\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LoadingScreen.cpp">
+      <Filter>src\Script\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\TerrainDamage.cpp">
+      <Filter>src\Script\Mechanics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\Dissolver.cpp">
+      <Filter>src\Script\Mechanics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\Necroplant.cpp">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\NecroProjectile.cpp">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\LightShield.cpp">
+      <Filter>src\Script\Mechanics\LightShield</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\ComboCounterIndicator.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\ComboCounter.cpp">
+      <Filter>src\Script\Mechanics\ComboCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CinematicCamera.cpp">
+      <Filter>src\Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\AllyInteractionsScript.cpp">
+      <Filter>src\Script\Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\NecroExplosion.cpp">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\NecroMuzzle.cpp">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\EnvironmentVFX.cpp">
+      <Filter>src\Script\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\NecroBurrow.cpp">
+      <Filter>src\Script\Enemy\Necroplant</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\AllyTrigger.cpp">
+      <Filter>src\Script\Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\AudioManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\EnvironmentSFX.cpp">
+      <Filter>src\Script\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossController.cpp">
+      <Filter>src\Script\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossStagePhaseOne.cpp">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossStagePhaseThree.cpp">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossStagePhaseTwo.cpp">
+      <Filter>src\Script\Boss\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossAttackAvalanche.cpp">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossAttackCrystalsCone.cpp">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossAttackCrystalsGuided.cpp">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossAttackEarthquake.cpp">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\BossAttackSlam.cpp">
+      <Filter>src\Script\Boss\BossAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\UILives.cpp">
+      <Filter>src\Script\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\CheckPointManager.cpp">
+      <Filter>src\Script\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\TutorialHelper.cpp">
+      <Filter>src\Script\Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\Biter.cpp">
+      <Filter>src\Script\Enemy\Biter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\Mushdoom.cpp">
+      <Filter>src\Script\Enemy\Mushdoom</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\MushdoomBall.cpp">
+      <Filter>src\Script\Enemy\Mushdoom</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script\HitBlinker.cpp">
+      <Filter>src\Script\Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

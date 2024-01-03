@@ -341,9 +341,9 @@ Libraries/lib/x86/LittleOrionEngine*
 Game/Resources/tmp_scene.scene*
 
 # Assets
-Game/Assets
-Game/Resources/Scenes/tmp_scene.*
-Game/Resources/Scripts/GameplaySystem*[0-9]*
+# Game/Assets
+# Game/Resources/Scenes/tmp_scene.*
+# Game/Resources/Scripts/GameplaySystem*[0-9]*
 *.ps1
 
 # Engine Log
