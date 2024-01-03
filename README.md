@@ -22,6 +22,54 @@
 
 ![](https://github.com/OnionGalaxy/LittleOrionEngine/blob/master/Media/README_usage/engine.png)
 
+## Build With VS2019
+clone my github:https://github.com/SiCoYu/YXK_LittleOrionEngine
+
+Operate as follow:
+
+Prepare:
+
+clone https://github.com/OnionGalaxy/LittleOrionEngine
+
+Download [LittleOrionEnginev1.6.0.zip] from Releases
+
+Two differect directory.
+
+### Step1:
+Download [LittleOrionEnginev1.6.0.zip](https://github.com/OnionGalaxy/LittleOrionEngine/releases/download/v1.6.0/LittleOrionEnginev1.6.0.zip)
+### Step2:
+Unzip LittleOrionEnginev1.6.0.zip
+### Step3:
+Copy "LittleOrionEnginev1.6.0\Assets\Scripts" to "LittleOrionEngine\Engine\Script"
+### Step4:
+Rename class name, "Scripts/EventManager" to "Scripts/CEventManager"
+### Step5:
+Copy "LittleOrionEnginev1.6.0\Assets" and "LittleOrionEnginev1.6.0\Resources" to "LittleOrionEngine\Game"
+### Step6:
+Use VS2019 Open LittleOrionEngine.sln
+
+Switch WinSDK to "10.0.22621.0"
+
+Switch VC++ to "v142"
+### Step7:
+"Path.h“ add "#include <iostream>"
+
+"ModuleAudio.h" add  "#include <iostream>"
+### Step8:
+Add "LittleOrionEngine\Engine\Script" to LittleOrionEngine.sln
+### Step9:
+Set sln to Debug/Win32
+### Step10:
+Build imgui
+
+Build MathGeoLib
+
+Build recast
+### Step11:
+Build LittleOrionEngine（setup as startup project)
+### Step12:
+Wait to build finish.
+
 ## Highlights
 - Create, save and load scenes.
 - Create GameObjects and modify their behaviours using Component system.
